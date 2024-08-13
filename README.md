@@ -91,5 +91,5 @@ flowchart TD
 	B -- "git commit" --> C[tracked]
 	B -- "Изменения" --> D[modified изменённый]
 	C -- "Изменения" --> D[modified изменённый]
-	D -- "git add" --> BB[staged(в списке на коммит) + tracked]
+	D -- "git add" --> BB[staged в списке на коммит + tracked]
 ```
